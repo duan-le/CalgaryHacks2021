@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    color: #1B2522;
+    background-color: #f8f9fe;
+    max-height: 2000px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1B2522;
+    padding: .5rem 1rem;
+  }
+  
+  .nav-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  
+    animation: nav-enter var(--nav-duration) var(--nav-delay) backwards;
+  }
+  
+  .logo {
+    width: 30px;
+  }
+  
+  .nav-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    margin-left: 1rem;
+    color: white;
+  
+    transition: color 100ms;
+  }
+  
+  .nav-list a:hover {
+    color: #CCC;
+  }
+
+  
+  .title{
+    position: relative;
+    font-size: 3rem;
+    left: 100px;
+    top: 100px;
+    
+    }
+
+  .description{
+      position: relative;
+      font-size: 1rem;
+      left: 100px;
+      top: 115px;
+  }  
+
+  .user{
+      display:flexbox;
+      flex-direction: column;
+  }
+  .usercard {
+    background-color: #fff;
+    background-clip: border-box;
+    position: relative;
+    border-radius: 2%;
+    box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    height: 400px;
+    top: 200px;
+    left: 400px;
+ 
+  }
+
+  .usercard p{
+      text-align: end;
+  }
+
+  .picture{
+    text-align: center;
+  }
+
+  .picture img{
+      box-shadow: 0 1px 4px 0;
+      border-radius: 50%;
+  }
+
+  button{
+      
+      margin-top: 50px;
+      margin-right: 20px;
+      border: none;
+      border-radius: 10%;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      background-color: #11cdef;
+      text-align: center;
+      cursor: pointer;
+      width: 15%;
+      font-size: 14px;
+
+  }
+
+  .userinfo{
+    background-color: #fff;
+    background-clip: border-box;
+    position: relative;
+    border-radius: 2%;
+    box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    height: 980px;
+    margin-top: 30px;
+    top: 200px;
+    left: 400px;
+  }
+
+ 
+
+  .userinfo h3{
+      position: relative;
+      top: 15px;
+      text-align: center;
+     color:lightgray;
+  }
+  .userinfo h4{
+      position: relative;
+      top: 30px;
+      left: 25px;
+      font-weight: normal;
+  }
+
+  .inputs{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+    display: block;
+    width: 90%;
+    height: calc(2.75rem + 2px);
+    padding: .625rem .75rem;
+    transition: all .2s cubic-bezier(.68, -.55, .265, 1.55);
+    color: #8898aa;
+    border: 1px solid #cad1d7;
+    border-radius: .375rem;
+    background-color: #fff;
+    background-clip: padding-box;
+    box-shadow: none;
+  }
+  
+  hr{
+    border:none;
+    border-top:1px dotted #f00;
+    color:#fff;
+    background-color:#fff;
+    height:1px;
+    width:50%;
+  }
+  @keyframes nav-enter {
+    from {
+      transform: translateY(-100%);
+    }
+  }
+
+  
