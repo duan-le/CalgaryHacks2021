@@ -28,7 +28,7 @@
         "type": "Japanese",
         "location": "2826 Morley Trail NW",
         "phoneNum": "403-289-8981",
-        "image": "img/restaurants/wami-otoya.png",
+        "image": "img/restaurants/kims-katsu.png",
         "skip": "https://www.skipthedishes.com/kims-katsu-and-roll-morley-trail"
     },
     {
@@ -44,7 +44,7 @@
         "type": "Japanese",
         "location": "16th Avenue NW, Calgary, AB",
         "phoneNum": "403-282-3588",
-        "image": "img/restaurants/dominos.png",
+        "image": "img/restaurants/sushi.jpg",
         "skip": "https://www.skipthedishes.com/sushi-bbq-inn"
     },
     {
@@ -108,7 +108,7 @@
         "type": "Thai",
         "location": "CF Market Mall, 3625 Shaganappi Trail NW, Calgary, AB",
         "phoneNum": "403-265-9553",
-        "image": "img/restaruants/thai-express.png",
+        "image": "img/restaurants/thai-express.png",
         "skip": "https://www.skipthedishes.com/thai-express-mt-royal-gate-southwest"
     },
     {
