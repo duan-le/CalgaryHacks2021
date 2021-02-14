@@ -2,7 +2,7 @@
 
 This is a project for group 68 for CalgaryHacks2021.
 
-We created a web application called SkipTheFood that reminds users to make / order food.
+We created a web application called SkipTheBooks that reminds users to make / order food.
 
 Features:
 - User Authorization
