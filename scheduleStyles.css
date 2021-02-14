@@ -45,62 +45,77 @@ body {
   color: #CCC;
 }
 
-.cd-schedule__group > ul {
-  position: relative;
-  padding: 0 var(--component-padding);
-  display: flex;
-  overflow-x: scroll;
-  -webkit-overflow-scrolling: touch;
+.btn {
+  background-color: hsl(261, 20%, 50%);
+  color: white;
+  border-radius: 10000px;
+  padding: .25em 1em;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-size: inherit;
+  text-align: center;
 }
 
-.cd-schedule__event {
-  flex-shrink: 0;
-  float: left;
-  height: 150px;
-  width: 70%;
-  max-width: 300px;
+.btn:hover,
+.btn:focus {
+  background-color: hsl(261, 20%, 37%);
 }
 
-.cd-schedule-modal {
-  position: fixed;
-  z-index: 3;
-  top: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  visibility: hidden;
-  transform: translateX(100%);
-  transition: transform .4s, visibility .4s;
+.wrapper {
+  margin-top: 1rem;
+  text-align: center;
 }
 
-.cd-schedule-modal--open {
-  transform: translateX(0);
-  visibility: visible;
+H1 {
+  text-align: center;
+  margin-top: 4rem;
+  color: #1B2522;
 }
 
-.js {
-  @include breakpoint(md) {
-    .cd-schedule__events {
-      width: 100%;
+.myTimetable {
+  width: 90%;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+}
 
-      > ul {
-        display: flex;
-        flex-wrap: nowrap;
-      }
-    }
+.myTimetable THEAD{
+  color: #1B2522;
+}
 
-    .cd-schedule__group {
-      flex-basis: 0;
-      flex-grow: 1;
-    }
+.myTimetable TBODY {
+  background-color: #292938;
+}
 
-    .cd-schedule__event {
-      position: absolute;
-      z-index: 3;
-      width: calc(100% + 2px); // top position and height will be set using js
-      left: -1px;
-    }
-  }
+.myTimetable TD {
+  border: 1px solid #CCC;
+  padding: 6px;
+  text-align: center;
+}
+.myTimetable TBODY TR TD:first-child {
+  color: #CCC;
+  background-color: #463b57;
+  font-weight: bold;
+}
+
+.break, .lunch {
+  color: #CCC;
+  background-color: #6b5c81 !important;
+  font-style: italic;
+}
+
+.subject {
+  color: #CCC;
+  font-size: 12pt;
+  margin-bottom:4px;
+}
+
+.room {
+  color: #CCC;
+  font-size: 10pt;
+  font-style: italic;
 }
 
 @keyframes nav-enter {
