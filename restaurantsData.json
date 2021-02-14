@@ -1,0 +1,130 @@
+[
+    {
+        "name": "A&W",
+        "type": "American",
+        "location": "14th Avenue NW, Calgary, AB",      
+        "phoneNum": "403-282-8222",
+        "image": "img/restaurants/a&w.png",
+        "skip": "https://www.skipthedishes.com/a-w-14th-street"
+    },
+    {
+        "name": "Domino's Pizza",
+        "type": "American",
+        "location": "3500 24 Avenue NW, Calgary, AB",
+        "phoneNum": "587-349-3900",
+        "image": "img/restaurants/dominos.png",
+        "skip": "https://www.dominos.ca/?gclid=EAIaIQobChMIv5OGrcbo7gIVwgN9Ch0eOwJQEAAYASAAEgJhk_D_BwE&gclsrc=aw.ds"
+    },
+    {
+        "name": "Subway",
+        "type": "American",
+        "location": "16th Ave NW &, 14 Ave NW Unit 1807, Calgary, AB ",
+        "phoneNum": "403-457-1375",
+        "image": "img/restaurants/subway.png",
+        "skip": "https://www.skipthedishes.com/subway-16th-avenue-northwest"
+    },
+    {
+        "name": "Kims Katsu and Roll",
+        "type": "Japanese",
+        "location": "2826 Morley Trail NW",
+        "phoneNum": "403-289-8981",
+        "image": "img/restaurants/wami-otoya.png",
+        "skip": "https://www.skipthedishes.com/kims-katsu-and-roll-morley-trail"
+    },
+    {
+        "name": "Edo Japan",
+        "type": "Japanese",
+        "location": "20 Crowfoot Crescent Northwest",
+        "phoneNum": "403-282-6551",
+        "image": "img/restaurants/edo.png",
+        "skip": "https://www.skipthedishes.com/edo-japan-crowfoot-village"
+    },
+    {
+        "name": "Sushi BBQ Inn",
+        "type": "Japanese",
+        "location": "16th Avenue NW, Calgary, AB",
+        "phoneNum": "403-282-3588",
+        "image": "img/restaurants/dominos.png",
+        "skip": "https://www.skipthedishes.com/sushi-bbq-inn"
+    },
+    {
+        "name": "Jerusalem Shawarma",
+        "type": "Mediterranean",
+        "location": "16061 Macleod Trail SE, Calgary, AB T2Y 2Z9",
+        "phoneNum": "403-453-0300",
+        "image": "img/restaurants/jerusalem.png",
+        "skip": "https://www.skipthedishes.com/jerusalem-shawarma-16-avenue"
+    },
+    {
+        "name": "OPA!",
+        "type": "Mediterranean",
+        "location": "3630 Brentwood Rd NW Unit 239, Calgary, AB",
+        "phoneNum": "403-220-1241",
+        "image": "img/restaurants/opa.png",
+        "skip": "https://www.skipthedishes.com/opa-of-greece-brentwood-rd-nw"
+    },
+    {
+        "name": "Ginger Beef Peking House",
+        "type": "Chinese",
+        "location": "3630 Brentwood Rd NW #309, Calgary, AB",
+        "phoneNum": "403-282-5090",
+        "image": "img/restaurants/ginger-beef-peking-house.png",
+        "skip": "https://www.skipthedishes.com/ginger-beef-peking-house-brentwood-road-north-west"
+    },
+    {
+        "name": "Eastern Fortune",
+        "type": "Chinese",
+        "location": "416 16 Ave NE",
+        "phoneNum": "403-455-3636",
+        "image": "img/restaurants/eastern.png",
+        "skip": "https://www.skipthedishes.com/eastern-fortune-restaurant-16th-avenue-northeast"
+    },
+    {
+        "name": "Quesada Burritos & Tacos",
+        "type": "Mexican",
+        "location": "909 5 Ave SW, Calgary, AB",
+        "phoneNum": "403-475-4312",
+        "image": "img/restaurants/quesada.png",
+        "skip:": "https://www.skipthedishes.com/quesada-burritos-and-tacos"
+    },
+    {
+        "name": "Mucho Burrito",
+        "type": "Mexican",
+        "location": "14th Street SW, Calgary, AB",
+        "phoneNum": "403-474-5667",
+        "image": "img/restaurants/mucho.png",
+        "skip": "https://www.skipthedishes.com/mucho-burrito-crowfoot"
+    },
+    {
+        "name": "Gringo Street",
+        "type": "Mexican",
+        "location": "17th Avenue SW, Calgary, AB",
+        "phoneNum": "403-474-1411",
+        "image": "img/restaurants/gringo.jpg",
+        "skip": "https://www.skipthedishes.com/gringo-street"
+    },
+    {
+        "name": "Thai Express",
+        "type": "Thai",
+        "location": "CF Market Mall, 3625 Shaganappi Trail NW, Calgary, AB",
+        "phoneNum": "403-265-9553",
+        "image": "img/restaruants/thai-express.png",
+        "skip": "https://www.skipthedishes.com/thai-express-mt-royal-gate-southwest"
+    },
+    {
+        "name": "Amato Gelato",
+        "type": "Italian",
+        "location": "7-2104 Kensington Road NW, Calgary, AB",
+        "phoneNum": "403-270-9733",
+        "image": "img/restaurants/amato.jpg",
+        "skip": "https://www.skipthedishes.com/amato-gelato"
+    },
+    {
+        "name": "Avatara Pizza",
+        "type": "Italian",
+        "location": "3406 3 Avenue NW, Calgary, AB",
+        "phoneNum": "403-457-4992",
+        "image": "img/restaurants/avatara.png",
+        "skip": "https://www.skipthedishes.com/avatara-pizza"
+    }
+]

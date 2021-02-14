@@ -3,14 +3,14 @@
   }
   
   body {
+    font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    top: 15%;
+	  background-color:hsl(184, 84%, 93%);
     margin: 0;
     font-family: Montserrat, sans-serif;
     color: #1B2522;
-  
-    
   }
-  
-  
   
   .nav {
     display: flex;
@@ -66,16 +66,6 @@
     margin-bottom: 1rem;
   
     animation: sub-title-enter var(--sub-title-duration) var(--sub-title-delay) backwards;
-  }
-  
-  .scroll-down-icon {
-    position: absolute;
-    bottom: 1rem;
-    width: 30px;
-  
-    animation:
-      scroll-down-bounce calc(var(--scroll-down-duration) + var(--scroll-down-delay)) 1s alternate infinite linear,
-      scroll-down-enter var(--scroll-down-duration) var(--scroll-down-delay) backwards;
   }
   
   .section {
@@ -172,16 +162,29 @@
 .iconDetails {
    margin-left:2%;
    float:left; 
-   height:4rem;
-   width:4rem; 
-   }
+   width:15%; 
+  }
 
-.food-option {
-    width:100%;
-    height:auto;
-    padding-top:5%;
-    margin-left:5rem;
-    margin-right:5rem;
+.food-options {
+  position: relative;
+  display: grid;
+  grid-template: 1fr / 1fr;
+}
+
+.itemRestaurant {
+  height: 20%;
+  width: 40%;
+  padding-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.itemRestaurant {
+  padding-right: 3%;
+}
+
+.itemRestaurantName {
+
 }
 
 h4 {
