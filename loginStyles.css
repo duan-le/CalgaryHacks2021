@@ -9,7 +9,7 @@
 
 .sign {
   padding-top: 40px;
-  color: #4eb65f;
+  color: hsl(261, 20%, 37%);
   font-weight: bold;
   font-size: 23px;
 }
@@ -65,7 +65,7 @@ margin-bottom: 27px;
 cursor: pointer;
   border-radius: 5em;
   color: #fff;
-  background-color: #4eb65f;
+  background-color:hsl(261, 20%, 37%);
   border: 0;
   padding-left: 40px;
   padding-right: 40px;
@@ -74,6 +74,10 @@ cursor: pointer;
   margin-left: 35%;
   font-size: 13px;
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.submit:hover {
+  background-color: hsl(261, 20%, 47%);
 }
 
 .forgot {

@@ -231,8 +231,23 @@
   </TABLE>
   <div class="wrapper">
     <button id="save" class="btn" onclick="saveMe()">Save</button>
-    <button id="load" class="btn" onClick="loadMe()">Load</button>
+    <button id="load" class="btn" onclick="loadMe()">Load</button>
   </div>
+  <div class="wrapper">
+    <button id="alertLunch" class="btn" onclick="myLunch()">Lunch</button>
+    <button id="alertDinner" class="btn" onclick="myDinner()">Dinner</button>
+  </div>
+  <script>
+    function myLunch() {
+      alert("Hey it's 12:00pm, I think you should browse our restaurant options to order some food !");
+    }
+  </script>
+  <script>
+    function myDinner() {
+      alert("Hey it's 5:00pm, I think you should browse our restaurant options to order some food !");
+    }
+  </script>
   </main>
+  <script src="timer.js"></script>
 </body>
 </html>

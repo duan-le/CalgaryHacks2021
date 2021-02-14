@@ -10,7 +10,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #1B2522;
-  padding: .5rem 1rem;
+  padding: .75rem 1rem;
 }
 
 .nav-top {
@@ -54,7 +54,7 @@ body {
   text-decoration: none;
   border: none;
   cursor: pointer;
-  font-size: inherit;
+  font-size: 1.5rem;
   text-align: center;
 }
 
@@ -117,6 +117,11 @@ H1 {
   color: #CCC;
   font-size: 10pt;
   font-style: italic;
+}
+
+#alertLunch, #alertDinner {
+  background-color: #FFF;
+  color: #BBB;
 }
 
 @keyframes nav-enter {
