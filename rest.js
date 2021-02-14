@@ -1,14 +1,17 @@
-var MongoClient = require('mongodb').MongoClient;
+var MongoClient = require(['/node_modules/mongodb']).MongoClient;
 var url = "mongodb+srv://martinha:calgaryhacks2021@cluster0.c0ajt.mongodb.net/<dbname>?retryWrites=true&w=majority";
-const client = new MongoClient(url);
 
-MongoClient.connect(url, function(err, db) {
+get = () => {MongoClient.connect(url, function(err, db) {
   if (err) throw err;
-  var dbo = db.db("restaurant");
-  var myobj = { type: "American" };
-  dbo.collection("customers").findOne(myobj, function(err, res) {
+  var dbo = db.db("restaurants");
+  var query = { type: "American" };
+  dbo.collection("data").find(query).toArray(function(err, result) {
     if (err) throw err;
-    console.log(myobj);
+    console.log(result);
     db.close();
   });
-});
+});}
+
+get("Japanese");
+
+
