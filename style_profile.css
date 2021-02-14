@@ -57,29 +57,32 @@ body {
     
     }
 
-  .description{
+  /* .description{
       position: relative;
       font-size: 1rem;
       left: 100px;
       top: 115px;
-  }  
+  }   */
 
   .user{
+      padding-top: 5rem;
       display:flexbox;
       flex-direction: column;
   }
-  .usercard {
+
+  /* .usercard {
     background-color: #fff;
     background-clip: border-box;
     position: relative;
     border-radius: 2%;
     box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2);
     max-width: 700px;
-    height: 400px;
+    height: 15rem;
     top: 200px;
-    left: 400px;
+    margin-left: auto;
+    margin-right: auto;
  
-  }
+  } */
 
   .usercard p{
       text-align: end;
@@ -94,22 +97,19 @@ body {
       border-radius: 50%;
   }
 
-  button{
-      
-      margin-top: 50px;
-      margin-right: 20px;
-      border: none;
-      border-radius: 10%;
-      outline: 0;
-      display: inline-block;
-      padding: 8px;
-      background-color: #11cdef;
-      text-align: center;
-      cursor: pointer;
-      width: 15%;
-      font-size: 14px;
-
-  }
+  button{ 
+    margin-top: 50px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 10%;
+    outline: 0;
+    padding: 8px;
+    background-color: hsl(261, 20%, 50%)ef;
+    text-align: center;
+    cursor: pointer;
+    width: 15%;
+    font-size: 14px;
+}
 
   .userinfo{
     background-color: #fff;
@@ -118,10 +118,12 @@ body {
     border-radius: 2%;
     box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2);
     max-width: 700px;
-    height: 980px;
-    margin-top: 30px;
-    top: 200px;
-    left: 400px;
+    height: 770px;
+    margin-top: -5rem; 
+    top: 130px;
+    bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
  

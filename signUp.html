@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="signUpStyles.css">
+  <script src="signUp.js"></script>
+  <title>Product Name</title>
+</head>
+<body>
+  <header class="full-screen-header">
+    <nav class="nav nav-top">
+      <img class="logo" src="img/logo1.png" alt="Product Logo">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="restaurants.html">Restaurants</a></li>
+        <li><a href="mySchedule.html">My Schedule</a></li>
+        <li><a href="myProfile.html">My Profile</a></li>
+      </ul>
+    </nav>
+
+  <div class = "userinfo">
+    <h3>USER INFORMATION</h3>
+    <h4>Email Address</h4>
+    <input id="emailInput" type="email" class="inputs" placeholder="user@email.com">
+    <h4>First Name</h4>
+    <input id="firstNameInput" type="text" class="inputs" placeholder="John">
+    <h4>Last Name</h4>
+    <input id="lastNameInput" type="text" class="inputs" placeholder="Doe">
+    <h4>Address</h4>
+    <input id="addressInput" type="text" class="inputs" placeholder="123 Road St SW">
+    <div style="text-align:center;">
+      <button class="submit-btn" type="submit" onclick="signUpUser(document.getElementById('emailInput').value, document.getElementById('firstNameInput').value, document.getElementById('lastNameInput').value, document.getElementById('addressInput').value)">Submit</button>
+    </div>
+  </div>
+  </div>
+  <script src="timer.js"></script>
+</body>
+</html>

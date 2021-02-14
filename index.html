@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="loginStyles.css">
+  <script src="main.js"></script>
   <title>Product Name</title>
 </head>
 <body>
@@ -14,13 +15,13 @@
     <nav class="nav nav-top">
       <img class="logo" src="img/logo1.png" alt="Product Logo">
       <ul class="nav-list">
-        <li><a href="home.html">Home</a></li>
-        <li><a href="restaurants.html">Restaurants</a></li>
-        <li><a href="mySchedule.html">My Schedule</a></li>
-        <li><a href="myProfile.html">My Profile</a></li>
+        <li><a href="">Home</a></li>
+        <li><a href="">Restaurants</a></li>
+        <li><a href="">My Schedule</a></li>
+        <li><a href="">My Profile</a></li>
       </ul>
     </nav>
-    <h1 class="title">HUNGY BUDY</h1>
+    <h1 class="title">SKIP THE BOOKS</h1>
     <span class="sub-title">Work more efficiently with food</span>
     <img class="scroll-down-icon" src="img/arrow_down.svg" alt="Scroll Down Icon">
   </header>
@@ -29,11 +30,11 @@
     <div class="main">
       <p class="sign" align="center">Sign In</p>
       <form class="form1" action="./home.html">
-        <input class="un " type="text" align="center" placeholder="Username">
-        <input class="pass" type="password" align="center" placeholder="Password">
-        <a class="submit" align="center" href="./home.html">Sign In</a>
+        <input id="usernameInput" class="un" type="text" align="center" placeholder="Username">
+        <input id="passwordInput" class="pass" type="password" align="center" placeholder="Password">
+        <a class="submit" type="submit" align="center" onclick="signInUser(document.getElementById('usernameInput').value, document.getElementById('passwordInput').value)">Sign In</a>
         <p class="forgot" align="center"><a href="#">Forgot Password?</p>
-        <p align="center"><a href="myProfile.html">Not a User?</p>
+        <p align="center"><a href="signUp.html">Not a User?</p>
       </form>
     </div>
   </main>
