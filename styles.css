@@ -170,3 +170,13 @@ body {
   }
 }
 
+
+.btn:hover,
+.btn:focus {
+  background-color: hsl(261, 20%, 37%);
+}
+
+.wrapper {
+  margin-top: 1rem;
+  text-align: center;
+}
